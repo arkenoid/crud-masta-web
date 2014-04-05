@@ -18,6 +18,12 @@ get ruby v 1.9.3-p545, install it
 gem install compass
 gem install sass
 
+## test drive
+run command :
+grunt serve
+grunt build
+grunt test
 
-npm install karma-jasmine
-npm install karma-chrome-launcher
+## install lib to fix error test
+npm install karma-jasmine --save-dev
+npm install karma-chrome-launcher --save-dev
