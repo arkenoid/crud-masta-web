@@ -46,3 +46,7 @@ yo angular:route controls
 
 ## update basics.html
 based on 1st sample from angularjs.org
+
+## update controls.html
+based on 2nd sample from angularjs.org
+with its own css and js
