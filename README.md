@@ -41,3 +41,5 @@ yo angular:route basics
 
 ## create controls page
 yo angular:route controls
+
+## update menu on main.html
