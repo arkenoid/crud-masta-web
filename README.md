@@ -3,7 +3,7 @@ crud-masta-web
 
 sample app with master detail containing all html input element.web front end using angularjs, twitter bootstrap 
 
-#Project Setup
+# Project Setup
 ## install generator-angular globally, so many project can use it
 npm install -g generator-angular
 
@@ -34,3 +34,10 @@ copy fonts in vendor folder to /fonts folder
 
 ## test result in dist folder
 http-server dist -p 8000
+
+# Development
+## create basics page
+yo angular:route basics
+
+## create controls page
+yo angular:route controls
