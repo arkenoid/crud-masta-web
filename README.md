@@ -27,3 +27,10 @@ grunt test
 ## install lib to fix error test
 npm install karma-jasmine --save-dev
 npm install karma-chrome-launcher --save-dev
+
+## fix css relations for dist folder
+change value in styles/main.scss : $icon-font-path
+copy fonts in vendor folder to /fonts folder
+
+## test result in dist folder
+http-server dist -p 8000
