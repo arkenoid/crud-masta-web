@@ -43,3 +43,6 @@ yo angular:route basics
 yo angular:route controls
 
 ## update menu on main.html
+
+## update basics.html
+based on 1st sample from angularjs.org
