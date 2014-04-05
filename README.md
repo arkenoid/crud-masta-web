@@ -35,6 +35,9 @@ copy fonts in vendor folder to /fonts folder
 ## test result in dist folder
 http-server dist -p 8000
 
+## important eclipse angularjs plugin
+https://github.com/angelozerr/angularjs-eclipse
+
 # Development
 ## create basics page
 yo angular:route basics
