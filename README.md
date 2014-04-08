@@ -8,7 +8,7 @@ sample app with master detail containing all html input element.web front end us
 npm install -g generator-angular
 
 ## install generator-angular to local folder
-npm install generator-angular
+npm install generator-angular grunt-cli bower grunt
 
 ## generate yeoman generator angular (set all to default)
 yo angular:app crudMastaWeb
@@ -17,6 +17,10 @@ yo angular:app crudMastaWeb
 get ruby v 1.9.3-p545, install it
 gem install compass
 gem install sass
+
+## jalanin npm install untuk lengkapin deps
+npm install 
+bower install 
 
 ## test drive
 run command :
