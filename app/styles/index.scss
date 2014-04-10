@@ -1,0 +1,26 @@
+$icon-font-path: "/fonts/";
+
+@import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
