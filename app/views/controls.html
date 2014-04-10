@@ -7,9 +7,13 @@
             <span class="done-{{todo.done}}">{{todo.text}}</span>
         </li>
     </ul>
-    <form ng-submit="addTodo()">
-        <input type="text" ng-model="todoText"  size="30"
-               placeholder="add new todo here">
-        <input class="btn-primary" type="submit" value="add">
+    <form ng-submit="addTodo()" class="form-inline" role="form">
+        <div class="input-group">
+            <input type="text" ng-model="todoText" class="form-control" size="30"
+                   placeholder="add new todo here">
+            <span class="input-group-btn">
+              <input class="btn btn-primary" type="submit" value="add">
+            </span>
+        </div>
     </form>
 </div>
