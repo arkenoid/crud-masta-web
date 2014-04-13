@@ -22,6 +22,18 @@ angular
         templateUrl: 'views/controls.html',
         controller: 'ControlsCtrl'
       })
+      .when('/person/list', {
+        templateUrl: 'views/person/list.html',
+        controller: 'PersonListCtrl'
+      })
+      .when('/person/add', {
+        templateUrl: '../views/person/add.html',
+        controller: 'PersonAddCtrl'
+      })
+      .when('/person/del', {
+        templateUrl: 'views/person/del.html',
+        controller: 'PersonDelCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
